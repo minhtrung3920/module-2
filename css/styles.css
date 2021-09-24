@@ -12,9 +12,7 @@ h1 {
     font-family: Verdana, Geneva, Tahoma, sans-serif
 }
 /* .menu{
-    position: absolute;
-    display: block;
-    float: right;
+    text-align: ;
 } */
 .content {
     background-color: rgb(158, 158, 158);
@@ -27,7 +25,6 @@ h1 {
     float: left;
 }
 .name {
-    background-color: limegreen;
     box-sizing: border-box;
     border: 1px solid black;
     width: 100px;
@@ -40,18 +37,19 @@ h1 {
     left: -16px;
 }
 .na1 {
-    background-color: chocolate;
+    background-color: plum;
 }
 .na2 {
-    background-color: darkturquoise;
+    background-color: rgb(190, 59, 36);
+    color: white;
 }
 .na3 {
-    background-color: goldenrod;
+    background-color: rgb(204, 162, 58);
 }
 
-@media (min-width: 992px) and  (max-width: 1120px) {
+@media (min-width: 992px) {
     .content { float: left; }
-    .cont-1, .cont-2, .cont-3 { width: 30%; }
+    .cont-1, .cont-2, .cont-3 { width: 25%; margin-left: 5%;}
     .details span{
         margin: 10px;
         padding: 5px;
@@ -71,8 +69,9 @@ h1 {
 }
 @media (min-width: 768px) and  (max-width: 991px) {
     .content { float: left; }
-    .cont-1, .cont-2 { width: 30%; }
-    .cont-3 { width: 65%; }
+    .cont-1, .cont-2 { width: 40%; }
+    .cont-3 { width: 89%; }
+    .cont-1, .cont-2, .cont-3 { margin-left: 5%; }
     .details span{
         margin: 10px;
         padding: 5px;
@@ -81,7 +80,7 @@ h1 {
 }
 @media (max-width: 767px) {
     .content { float: left;}
-
+    .cont-1, .cont-2, .cont-3 { width: 90%; margin-left: 5%;}
     .details span{
         margin: 10px;
         padding: 5px;
